@@ -1,4 +1,34 @@
+# General C# project
+*.suo
+*.user
+.vs/
 [Bb]in/
 [Oo]bj/
-.vs/
-*.zip
+_UpgradeReport_Files/
+/[Pp]ackages/
+
+# Mod template folders
+/[Bb]uild/
+/[Dd]ist/
+/[Nn]uget/
+
+# Rider
+
+# User specific
+**/.idea
+
+# VS Code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+.DS_Store
